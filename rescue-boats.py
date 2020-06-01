@@ -41,6 +41,12 @@ Let people[i] to the currently lightest person, and people[j] to the heaviest.
 Then, as described above, if the heaviest person can share a boat with the
 lightest person (if people[j] + people[i] <= limit) then do so;
 otherwise, the heaviest person sits in their own boat.
+
+Time Complexity: 
+O(N log N), where N is the length of people.
+
+Space Complexity: 
+O(N)
 """
 
 class RescueBoats(object):
